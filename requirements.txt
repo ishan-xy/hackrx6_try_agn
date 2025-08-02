@@ -3,3 +3,7 @@ python-dotenv
 requests
 uvicorn
 google-generativeai
+FlagEmbedding
+"pinecone[asyncio,grpc]"
+google-generativeai
+requests

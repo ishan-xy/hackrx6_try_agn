@@ -3,14 +3,10 @@ from typing import List, Optional, Dict, Any
 from pydantic import BaseModel
 from dotenv import load_dotenv
 from handler.run import process_questions_parallel
-import shutil
 import requests
 import os
-import json
 import threading
-import hashlib
 import tempfile
-import uuid
 
 load_dotenv()
 
